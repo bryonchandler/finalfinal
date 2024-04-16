@@ -1,0 +1,46 @@
+/*postioning styles*/
+.common{
+    position: absolute;
+    border: 5px solid rgba(255, 255, 101, 0.82);
+    background-color: rgb(255, 206, 29);
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: rgb(255, 223, 16);
+    color: black;
+}
+.top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: rgb(91, 46, 0);
+   
+}
+.content{
+    top: 170px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+
+.head{
+    background-color: yellow;
+}
+
+.nav{
+    position: relative;
+    top: 20px;
+    float:right;
+    color: white;
+
+    
+}
